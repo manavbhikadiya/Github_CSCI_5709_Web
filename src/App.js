@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import Navbar from "./components/Navbar/Navbar";
+import ProfilePage from "./components/Profile/ProfilePage";
+import SignUp from "./components/SignUp/SignUp";
+import { Route, Routes } from "react-router-dom";
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>My React Frontend Working!!!</p>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<SignUp />} />
+        <Route exact path="/profile" element={<ProfilePage/>}/>
+      </Routes>
+    </>
   );
-}
+};
 
 export default App;

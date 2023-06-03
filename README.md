@@ -2,6 +2,6 @@
 
 ## Tutorial Links
 
-Tutorial_2 link live: https://tutorial-2--magnificent-crisp-26f9ed.netlify.app/
+Tutorial_3 link live: 
 
-Tutorial_2 Gitlab Link: https://git.cs.dal.ca/manavbhai/csci_5709_tutorials/-/tree/tutorial_2?ref_type=heads
+Tutorial_3 Gitlab Link: 
